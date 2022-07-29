@@ -1,0 +1,17 @@
+.boxsectiontwo{
+    margin-top: 150px;
+}
+.item{
+    width:70%;
+    border-radius: 20px;
+}
+
+.birds{
+    transform: translateY(100px);
+    transition: transform 1s ease;
+}
+
+.birds.success{
+    transform: translateY(0);
+    
+}
