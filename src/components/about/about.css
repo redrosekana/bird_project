@@ -1,5 +1,4 @@
 #about-div{
-    border: 1px solid black;
     height:550px;
     display: flex;
     justify-content: center;
@@ -42,4 +41,10 @@ i.fa-star{
     .about-row{
         font-size: 1.2rem;
     }
+}
+
+@media screen and (max-width:500px) {
+    #about-div{
+        height:650px;
+    }    
 }
