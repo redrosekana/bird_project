@@ -14,7 +14,7 @@ export default function Sectiontwo(){
       },[])
    
    function scrollEffect(event){
-      console.log(window.scrollY);
+      //console.log(window.scrollY);
       for (let i=0;i<7;i++){
          if (b.current[i].offsetTop-window.scrollY < 1000){
             b.current[i].classList.add('success')
@@ -68,8 +68,7 @@ export default function Sectiontwo(){
                        <img className='item img-fluid d-block mx-auto mt-3'  src={'./picture/b7.jpg'} alt="nothing"/>
                        <p className='mt-4' style={{fontSize:'24px'}}>นกยูง เป็นสัตว์ปีกจำพวกไก่ฟ้าขนาดใหญ่ที่สุดในวงศ์เดียวกันนี้ มีจุดเด่นคือรักเดียวใจเดียวมีคู่แค่ตัวไปตลอดชีวิต หากตัวใดตัวนึงตาย อีกก็จัม่องตามไปด้วย เพศผู้มีขนหางยาวที่มีสีสันสวยงาม ที่เมื่อแผ่ขยายออกเพื่ออวดเพศเมียจะมีความสวยงามเป็นอย่างยิ่ง ที่เรียกว่า "รำแพน"</p>
                     </div>
-                    
-                </div>
+                  </div>
             </div>
         </section>
     )    

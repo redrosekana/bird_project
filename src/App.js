@@ -1,6 +1,8 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import { Route, Switch} from 'react-router-dom'
-import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Home from './componentRouter/home'
 import Error from './componentRouter/error';
@@ -10,7 +12,7 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Navbar/>
       <Switch>
         <Route path="/" exact={true} component={Home}></Route>
@@ -18,7 +20,7 @@ function App() {
         <Route path="/contact" exact={true} component={Error}></Route>
         <Route path="/member" exact={true} component={Error}></Route>
       </Switch>
-    </BrowserRouter>
+    </>
   )
 }
 
